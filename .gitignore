@@ -57,7 +57,7 @@ package-lock.json
 yarn.lock
 
 # Ignore custom build files
-/public/build
+#/public/build
 
 # Ignore MacOS specific files
 .DS_Store
