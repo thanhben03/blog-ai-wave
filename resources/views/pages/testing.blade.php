@@ -26,7 +26,7 @@
                     <div class="inner text-center mt--140">
                         <h1 class="title display-one">Chào mừng bạn đến Blog của tôi
                             <br>
-                            Ra mắt vào
+                            Ra mắt:
                             <span class="header-caption">
                                 <span class="cd-headline rotate-1">
                                     <span class="cd-words-wrapper" style="width: 221px;">
