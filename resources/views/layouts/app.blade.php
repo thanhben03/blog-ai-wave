@@ -8,12 +8,12 @@
 <body>
     <main class="page-wrapper">
         <!-- Header -->
-        <x-header />
-        <x-mobileNav />
+{{--        <x-header />--}}
+{{--        <x-mobileNav />--}}
 
         @yield('content')
         <!-- footer -->
-        <x-footer />
+{{--        <x-footer />--}}
     </main>
     <!-- All Scripts  -->
     <x-comman />
