@@ -144,7 +144,7 @@
     --shadow-lighter: 4px 4px 20px 20px rgba(0,0,0,0.01);
     --transition: 0.3s;
     --transition-transform: transform .65s cubic-bezier(.23,1,.32,1);
-    --font-primary: "Sora", sans-serif;
+    --font-primary: "Roboto", sans-serif;
     --secondary-font: "Sora", sans-serif;
     --font-awesome: "Font Awesome 6 Pro";
     --font-size-b1: 16px;
