@@ -5,7 +5,7 @@
             <div class="col-lg-2 col-md-6 col-6">
                 <div class="logo">
                     <a href="{{ route('home') }}">
-                        <img class="logo-light" src="{{ asset('assets/images/logo/logo.png') }}" alt="ChatBot Logo">
+                        <img class="logo-light" src="{{ asset('assets/images/logo/logo2.png') }}" alt="ChatBot Logo">
                     </a>
                 </div>
             </div>
