@@ -283,7 +283,7 @@
                                             <div class="export-img">
                                                 <div class="inner-without-padding">
                                                     <div class="export-img img-bg-shape">
-                                                        <img src="{{ asset('assets/images/generator-img/avatar.png') }}"
+                                                        <img src="{{ asset('assets/images/generator-img/chat-export-audio.png') }}"
                                                             alt="Chat example Image">
                                                         <div class="image-shape"></div>
                                                     </div>
@@ -604,7 +604,7 @@
                                             <div class="col-lg-12 col-xl-5 col-12">
                                                 <div class="thumbnail">
                                                     <img class="radius"
-                                                        src="{{ asset('assets/images/generator-img/avatar.png') }}"
+                                                        src="{{ asset('assets/images/split/split-1.png') }}"
                                                         alt="split Images">
                                                 </div>
                                             </div>
@@ -1761,7 +1761,7 @@
                             </div>
                             <div class="content-right">
                                 <div class="img-right">
-                                    <img src="{{ asset('assets/images/generator-img/avatar.png') }}" alt="Mobile View">
+                                    <img src="{{ asset('assets/images/cta-img/view-img.png') }}" alt="Mobile View">
                                 </div>
                             </div>
                             <div class="bg-shape-one">
