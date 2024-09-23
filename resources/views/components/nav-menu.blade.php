@@ -2,7 +2,7 @@
     <ul class="mainmenu">
 
         @foreach(\App\Models\MainMenu::all()->sortBy('sort') as $route)
-            <li><a href="/{{$route->link}}">{{$route->name}}</a></li>
+            <li><a href="{{$route->link}}">{{$route->name}}</a></li>
 
         @endforeach
 
