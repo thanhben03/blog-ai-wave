@@ -2,9 +2,13 @@
     <ul class="mainmenu">
 
         @foreach(\App\Models\MainMenu::all()->sortBy('sort') as $route)
-            <li><a href="{{$route->link}}">{{$route->name}}</a></li>
+            @if($route->name == 'Home')
+                <li><a href="{{$route->link}}">{{$route->name}}</a></li>
+            @else
+                <li><a href="/{{$route->link}}">{{$route->name}}</a></li>
 
-        @endforeach
+            @endif
+                    @endforeach
 
 {{--        <li><a href="{{route('pages.blog')}}">Blog</a></li>--}}
 {{--        <li><a href="{{ route('tools.text.generator') }}">Trading</a></li>--}}
