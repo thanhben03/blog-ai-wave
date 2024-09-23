@@ -5,7 +5,7 @@
                 <div class="col-lg-12">
                     <div class="inner">
                         <div class="content text-widget">
-                            {!! \App\Models\TopHeader::query()->where('active', 1)->first()->content !!}
+                            {!! \App\Models\TopHeader::query()->where('active', 1)->first()->content ?? '' !!}
                         </div>
 {{--                        <div class="content">--}}
 {{--                            <span class="rainbow-badge">Limited Time Offer</span>--}}
