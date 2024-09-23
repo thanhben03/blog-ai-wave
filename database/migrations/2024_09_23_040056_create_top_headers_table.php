@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('top_headers', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->longText('content');
             $table->boolean('active')->default(false);
             $table->timestamps();
