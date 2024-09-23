@@ -284,26 +284,10 @@
                             </div>
                         </div>
                         <div class="rbt-single-widget widget_categories mt--40">
-                            <h3 class="title">Categories</h3>
+                            <h3 class="title">Banner</h3>
                             <div class="inner">
-                                <ul class="category-list ">
-                                    <li><a href="#"><span class="left-content">Development</span><span
-                                                class="count-text">3</span></a></li>
-                                    <li><a href="#"><span class="left-content">Company</span><span
-                                                class="count-text">3</span></a></li>
-                                    <li><a href="#"><span class="left-content">Marketing</span><span
-                                                class="count-text">2</span></a></li>
-                                    <li><a href="#"><span class="left-content">UX
-                                                Design</span><span class="count-text">5</span></a></li>
-                                    <li><a href="#"><span class="left-content">Business</span><span
-                                                class="count-text">2</span></a></li>
-                                    <li><a href="#"><span class="left-content">App
-                                                Development</span><span class="count-text">3</span></a></li>
-                                    <li><a href="#"><span class="left-content">Application</span><span
-                                                class="count-text">2</span></a></li>
-                                    <li><a href="#"><span class="left-content">Art</span><span
-                                                class="count-text">2</span></a></li>
-                                </ul>
+                                <!-- Banner -->
+                                <img src="{{asset('assets/images/banner/banner.png')}}">
                             </div>
                         </div>
                         <div class="rbt-single-widget widget_recent_entries mt--40">
@@ -358,41 +342,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="rbt-single-widget widget_archive mt--40">
-                            <h3 class="title">Archives</h3>
-                            <div class="inner">
-                                <ul>
-                                    <li><a href="#"><span class="cate">10 Dec 2023</span></a></li>
-                                    <li><a href="#"><span class="cate">30 Nov 2023</span></a></li>
-                                    <li><a href="#"><span class="cate">12 Oct 2023</span></a></li>
-                                    <li><a href="#"><span class="cate">25 Aug 2023</span></a></li>
-                                    <li><a href="#"><span class="cate">23 Jul 2023</span></a></li>
-                                    <li><a href="#"><span class="cate">30 Jun 2023</span></a></li>
-                                    <li><a href="#"><span class="cate">21 Apl 2023</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="rbt-single-widget widget_tag_cloud mt--40">
-                            <h3 class="title">Tags</h3>
-                            <div class="inner">
-                                <div class="tagcloud">
-                                    <a href="#">Corporate</a>
-                                    <a href="#">Agency</a>
-                                    <a href="#">Creative</a>
-                                    <a href="#">Design</a>
-                                    <a href="#">Minimal</a>
-                                    <a href="#">Company</a>
-                                    <a href="#">Development</a>
-                                    <a href="#">App Landing</a>
-                                    <a href="#">Startup</a>
-                                    <a href="#">App</a>
-                                    <a href="#">Business</a>
-                                    <a href="#">Software</a>
-                                    <a href="#">Landing</a>
-                                    <a href="#">Art</a>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </aside>
                 </div>
             </div>

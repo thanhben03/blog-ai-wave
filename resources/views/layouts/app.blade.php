@@ -7,6 +7,7 @@
 
 <body>
     <main class="page-wrapper">
+        <x-top-header />
         <!-- Header -->
         <x-header />
         <x-mobileNav />

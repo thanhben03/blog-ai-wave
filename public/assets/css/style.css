@@ -1,3 +1,5 @@
+
+
 @charset "UTF-8";
 /**************************************
  CSS Index
@@ -23080,3 +23082,25 @@ body.active-light-mode .slider-area.bg-transparent .inner button.btn-default.btn
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.header-top-news {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    z-index: 99;
+    transition: 0.4s;
+    margin-bottom: -1px;
+}
+.header-top-news.bg-image1 {
+    background-image: url('../images/banner/top-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.text-widget > * {
+    margin: 0 !important;
+}

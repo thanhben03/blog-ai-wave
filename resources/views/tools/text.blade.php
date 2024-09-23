@@ -19,7 +19,7 @@
                                 <div class="icon">
                                     <img src="{{ asset('assets/images/icons/document-file.png') }}" alt="">
                                 </div>
-                                <h6 class="title">Website roadmap title write me</h6>
+                                <h6 class="title">Thuật ngữ tài chính</h6>
                             </div>
                             <div class="dropdown history-box-dropdown">
                                 <button type="button" class="more-info-icon dropdown-toggle" data-bs-toggle="dropdown"
@@ -42,325 +42,87 @@
                             </div>
                         </div>
                         <div class="chat-box-list" id="chatContainer">
-                            <div class="chat-box author-speech">
-                                <div class="inner">
-                                    <div class="chat-section">
-                                        <div class="author">
-                                            <img class="w-100" src="{{ asset('assets/images/team/team-01sm.jpg') }}"
-                                                alt="Author">
-                                        </div>
-                                        <div class="chat-content">
-                                            <h6 class="meta-name title">Adam Milner</h6>
-                                            <p class="editable" contenteditable="true">Website Roadmap title
-                                                write me</p>
-                                            <div class="edit-actions">
-                                                <button class="edit-btn btn-default btn-small btn-border"
-                                                    onclick="editMessage(this)"><span class="text">Edit</span><span
-                                                        class="icon"><i
-                                                            class="fa-solid fa-pen-to-square"></i></span></button>
-                                                <button class="save-regenerate-btn btn-default btn-small"
-                                                    onclick="saveAndRegenerateMessage(this)"><span class="text">Save &amp;
-                                                        Regenerate</span><span class="icon"><i
-                                                            class="fa-regular fa-floppy-disk-circle-arrow-right"></i></span></button>
-                                                <button class="cancel-btn btn-default btn-small btn-border"
-                                                    onclick="cancelEdit(this)"><span class="text">Cancel</span><span
-                                                        class="icon"><i
-                                                            class="fa-sharp fa-solid fa-xmark"></i></span></button>
+                            <div class="row row--15">
+                                <div class="col-lg-6 col-md-6 col-12 mt--30">
+                                    <div class="rainbow-card undefined">
+                                        <div class="inner">
+                                            <div class="thumbnail">
+                                                <a class="image" href="http://127.0.0.1:8000/blog-details"><img src="http://127.0.0.1:8000/assets/images/blog/blog-01.png" alt="Blog Image">
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <ul class="rainbow-meta-list">
+                                                    <li><i class="fa-sharp fa-regular fa-calendar-days icon-left"></i> 10
+                                                        Dec 2023</li>
+                                                    <li class="separator"></li>
+                                                    <li class="catagory-meta"><a href="#">Technology</a></li>
+                                                </ul>
+                                                <h4 class="title"><a href="http://127.0.0.1:8000/blog-details">Best
+                                                        Corporate
+                                                        Tips
+                                                        You Will Read This Year.
+                                                    </a>
+                                                </h4>
+                                                <p class="description">Implement user authentication to provide personalized
+                                                    experiences </p>
+                                                <a class="btn-read-more border-transparent" href="#"><span>Read More
+                                                        <i class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="chat-box ai-speech">
-                                <div class="inner">
-                                    <div class="chat-section">
-                                        <div class="author">
-                                            <img class="w-100" src="{{ asset('assets/images/team/avater.png') }}"
-                                                alt="AiWave">
-                                        </div>
-                                        <div class="chat-content">
-                                            <h6 class="title">AiWave<span class="rainbow-badge-card"><i
-                                                        class="fa-sharp fa-regular fa-check"></i> Bot</span>
-                                            </h6>
-                                            <p class="mb--20">Website Roadmap title write me:</p>
-                                            <p class="mb--20"> Here's a fun fact about the Roman Empire: Ancient
-                                                Romans used a condiment called "garum" in many of their dishes.
-                                                Garum was a fermented fish sauce that served as a popular
-                                                seasoning in Roman cuisine. It was made by fermenting fish,
-                                                typically mackerel, with salt for several ermenting fish,
-                                                typically mackerel, with salt for several weeks or months. The
-                                                resulting liquid was then strainedweeks or months. The resulting
-                                                liquid was then strained and used as a flavorful and salty
-                                                condiment in various recipes. </p>
-                                            <div class="reaction-section">
-                                                <div class="btn-grp">
-                                                    <div class="left-side-btn dropup">
-                                                        <button data-bs-toggle="modal" data-bs-target="#likeModal"
-                                                            class="react-btn btn-default btn-small btn-border"><i
-                                                                class="fa-sharp fa-regular fa-thumbs-up"></i></button>
-                                                        <button data-bs-toggle="modal" data-bs-target="#dislikeModal"
-                                                            class="react-btn btn-default btn-small btn-border"><i
-                                                                class="fa-sharp fa-regular fa-thumbs-down"></i></button>
-                                                        <button data-bs-toggle="modal" data-bs-target="#shareModal"
-                                                            class="react-btn btn-default btn-small btn-border"><i
-                                                                class="fa-sharp fa-solid fa-share"></i></button>
-                                                        <button type="button"
-                                                            class="react-btn btn-default btn-small btn-border dropdown-toggle"
-                                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                                            <i class="fa-regular fa-ellipsis-vertical"></i>
-                                                        </button>
-                                                        <ul class="dropdown-menu style-one">
-                                                            <li><a class="dropdown-item" href="#"><i
-                                                                        class="fa-sharp fa-solid fa-copy"></i>
-                                                                    Copy</a></li>
-                                                            <li><a class="dropdown-item" href="#"><i
-                                                                        class="fa-sharp fa-solid fa-tag"></i>
-                                                                    Pin Chat</a></li>
-                                                            <li><a class="dropdown-item" href="#"><i
-                                                                        class="fa-solid fa-file-lines"></i>
-                                                                    Rename</a></li>
-                                                            <li><a class="dropdown-item delete-item" href="#"><i
-                                                                        class="fa-solid fa-trash-can"></i>
-                                                                    Delete Chat</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="right-side-btn">
-                                                        <button class="react-btn btn-default btn-small btn-border">
-                                                            <i
-                                                                class="fa-sharp fa-solid fa-repeat"></i><span>Regenerate</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
+                                <div class="col-lg-6 col-md-6 col-12 mt--30">
+                                    <div class="rainbow-card undefined">
+                                        <div class="inner">
+                                            <div class="thumbnail">
+                                                <a class="image" href="http://127.0.0.1:8000/blog-details"><img src="http://127.0.0.1:8000/assets/images/blog/blog-01.png" alt="Blog Image">
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <ul class="rainbow-meta-list">
+                                                    <li><i class="fa-sharp fa-regular fa-calendar-days icon-left"></i> 10
+                                                        Dec 2023</li>
+                                                    <li class="separator"></li>
+                                                    <li class="catagory-meta"><a href="#">Technology</a></li>
+                                                </ul>
+                                                <h4 class="title"><a href="http://127.0.0.1:8000/blog-details">Best
+                                                        Corporate
+                                                        Tips
+                                                        You Will Read This Year.
+                                                    </a>
+                                                </h4>
+                                                <p class="description">Implement user authentication to provide personalized
+                                                    experiences </p>
+                                                <a class="btn-read-more border-transparent" href="#"><span>Read More
+                                                        <i class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="chat-box author-speech">
-                                <div class="inner">
-                                    <div class="chat-section">
-                                        <div class="author">
-                                            <img class="w-100" src="{{ asset('assets/images/team/team-01sm.jpg') }}"
-                                                alt="Author">
-                                        </div>
-                                        <div class="chat-content">
-                                            <h6 class="title">Adam Milner</h6>
-                                            <p>How do AiWave work?</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chat-box ai-speech">
-                                <div class="inner">
-                                    <div class="chat-section">
-                                        <div class="author">
-                                            <img class="w-100" src="{{ asset('assets/images/team/avater.png') }}"
-                                                alt="AiWave">
-                                        </div>
-                                        <div class="chat-content">
-                                            <h6 class="title">AiWave<span class="rainbow-badge-card"><i
-                                                        class="fa-sharp fa-regular fa-check"></i> Bot</span>
-                                            </h6>
-                                            <p class="mb--20">AiWave companies to easily resolve many types of
-                                                customer queries:</p>
-                                            <p class="mb--20">AiWave boost operational efficiency and bring cost
-                                                savings to businesses while offering convenience and added
-                                                services to internal employees and external customers. They
-                                                allow companies to easily resolve many types of customer queries
-                                                and issues while reducing the need for human interaction.</p>
-                                            <div class="reaction-section">
-                                                <div class="btn-grp">
-                                                    <div class="left-side-btn dropup">
-                                                        <button data-bs-toggle="modal" data-bs-target="#likeModal"
-                                                            class="react-btn btn-default btn-small btn-border"><i
-                                                                class="fa-sharp fa-regular fa-thumbs-up"></i></button>
-                                                        <button data-bs-toggle="modal" data-bs-target="#dislikeModal"
-                                                            class="react-btn btn-default btn-small btn-border"><i
-                                                                class="fa-sharp fa-regular fa-thumbs-down"></i></button>
-                                                        <button data-bs-toggle="modal" data-bs-target="#shareModal"
-                                                            class="react-btn btn-default btn-small btn-border"><i
-                                                                class="fa-sharp fa-solid fa-share"></i></button>
-                                                        <button type="button"
-                                                            class="react-btn btn-default btn-small btn-border dropdown-toggle"
-                                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                                            <i class="fa-regular fa-ellipsis-vertical"></i>
-                                                        </button>
-                                                        <ul class="dropdown-menu style-one">
-                                                            <li><a class="dropdown-item" href="#"><i
-                                                                        class="fa-sharp fa-solid fa-copy"></i>
-                                                                    Copy</a></li>
-                                                            <li><a class="dropdown-item" href="#"><i
-                                                                        class="fa-sharp fa-solid fa-tag"></i>
-                                                                    Pin Chat</a></li>
-                                                            <li><a class="dropdown-item" href="#"><i
-                                                                        class="fa-solid fa-file-lines"></i>
-                                                                    Rename</a></li>
-                                                            <li><a class="dropdown-item delete-item" href="#"><i
-                                                                        class="fa-solid fa-trash-can"></i>
-                                                                    Delete Chat</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="right-side-btn">
-                                                        <button class="react-btn btn-default btn-small btn-border"
-                                                            onclick="regenerateMessage()">
-                                                            <i
-                                                                class="fa-sharp fa-solid fa-repeat"></i><span>Regenerate</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
+                                <div class="col-lg-6 col-md-6 col-12 mt--30">
+                                    <div class="rainbow-card undefined">
+                                        <div class="inner">
+                                            <div class="thumbnail">
+                                                <a class="image" href="http://127.0.0.1:8000/blog-details"><img src="http://127.0.0.1:8000/assets/images/blog/blog-01.png" alt="Blog Image">
+                                                </a>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chat-box author-speech">
-                                <div class="inner">
-                                    <div class="chat-section">
-                                        <div class="author">
-                                            <img class="w-100" src="{{ asset('assets/images/team/team-01sm.jpg') }}"
-                                                alt="Author">
-                                        </div>
-                                        <div class="chat-content">
-                                            <h6 class="title">Adam Milner</h6>
-                                            <p>How can i talk with AiWave?</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chat-box ai-speech">
-                                <div class="inner">
-                                    <div class="chat-section">
-                                        <div class="author">
-                                            <img class="w-100" src="{{ asset('assets/images/team/avater.png') }}"
-                                                alt="AiWave">
-                                        </div>
-                                        <div class="chat-content">
-                                            <h6 class="title">AiWave<span class="rainbow-badge-card"><i
-                                                        class="fa-sharp fa-regular fa-check"></i> Bot</span>
-                                            </h6>
-                                            <p class="mb--20">Certainly! Here's the result of your question:</p>
-                                            <p>You're already talking to a AiWave right now! You can ask me
-                                                anything or discuss various topics. Just type your questions or
-                                                statements, and I'll do my best to provide helpful and
-                                                informative responses.</p>
-                                            <p class="mb--20">If you have a specific topic in mind or if there's
-                                                something you'd like to know or discuss, feel free to let me
-                                                know!</p>
-                                            <div class="reaction-section">
-                                                <div class="btn-grp">
-                                                    <div class="left-side-btn dropup">
-                                                        <button data-bs-toggle="modal" data-bs-target="#likeModal"
-                                                            class="react-btn btn-default btn-small btn-border"><i
-                                                                class="fa-sharp fa-regular fa-thumbs-up"></i></button>
-                                                        <button data-bs-toggle="modal" data-bs-target="#dislikeModal"
-                                                            class="react-btn btn-default btn-small btn-border"><i
-                                                                class="fa-sharp fa-regular fa-thumbs-down"></i></button>
-                                                        <button data-bs-toggle="modal" data-bs-target="#shareModal"
-                                                            class="react-btn btn-default btn-small btn-border"><i
-                                                                class="fa-sharp fa-solid fa-share"></i></button>
-                                                        <button type="button"
-                                                            class="react-btn btn-default btn-small btn-border dropdown-toggle"
-                                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                                            <i class="fa-regular fa-ellipsis-vertical"></i>
-                                                        </button>
-                                                        <ul class="dropdown-menu style-one">
-                                                            <li><a class="dropdown-item" href="#"><i
-                                                                        class="fa-sharp fa-solid fa-copy"></i>
-                                                                    Copy</a></li>
-                                                            <li><a class="dropdown-item" href="#"><i
-                                                                        class="fa-sharp fa-solid fa-tag"></i>
-                                                                    Pin Chat</a></li>
-                                                            <li><a class="dropdown-item" href="#"><i
-                                                                        class="fa-solid fa-file-lines"></i>
-                                                                    Rename</a></li>
-                                                            <li><a class="dropdown-item delete-item" href="#"><i
-                                                                        class="fa-solid fa-trash-can"></i>
-                                                                    Delete Chat</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="right-side-btn">
-                                                        <button class="react-btn btn-default btn-small btn-border"
-                                                            onclick="regenerateMessage()">
-                                                            <i
-                                                                class="fa-sharp fa-solid fa-repeat"></i><span>Regenerate</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chat-box author-speech">
-                                <div class="inner">
-                                    <div class="chat-section">
-                                        <div class="author">
-                                            <img class="w-100" src="{{ asset('assets/images/team/team-01sm.jpg') }}"
-                                                alt="Author">
-                                        </div>
-                                        <div class="chat-content">
-                                            <h6 class="title">Adam Milner</h6>
-                                            <p>Could I know Everything from AiWave?</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chat-box ai-speech">
-                                <div class="inner">
-                                    <div class="chat-section">
-                                        <div class="author">
-                                            <img class="w-100" src="{{ asset('assets/images/team/avater.png') }}"
-                                                alt="AiWave">
-                                        </div>
-                                        <div class="chat-content">
-                                            <h6 class="title">AiWave<span class="rainbow-badge-card"><i
-                                                        class="fa-sharp fa-regular fa-check"></i> Bot</span>
-                                            </h6>
-                                            <p class="mb--20">Certainly! Here's the result of your question:</p>
-                                            <p class="mb--20">While AiWaveis a powerful language model that has
-                                                been trained on a diverse range of internet text, it doesn't
-                                                know everything. It has limitations</p>
-                                            <div class="reaction-section">
-                                                <div class="btn-grp">
-                                                    <div class="left-side-btn dropup">
-                                                        <button data-bs-toggle="modal" data-bs-target="#likeModal"
-                                                            class="react-btn btn-default btn-small btn-border"><i
-                                                                class="fa-sharp fa-regular fa-thumbs-up"></i></button>
-                                                        <button data-bs-toggle="modal" data-bs-target="#dislikeModal"
-                                                            class="react-btn btn-default btn-small btn-border"><i
-                                                                class="fa-sharp fa-regular fa-thumbs-down"></i></button>
-                                                        <button data-bs-toggle="modal" data-bs-target="#shareModal"
-                                                            class="react-btn btn-default btn-small btn-border"><i
-                                                                class="fa-sharp fa-solid fa-share"></i></button>
-                                                        <button type="button"
-                                                            class="react-btn btn-default btn-small btn-border dropdown-toggle"
-                                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                                            <i class="fa-regular fa-ellipsis-vertical"></i>
-                                                        </button>
-                                                        <ul class="dropdown-menu style-one">
-                                                            <li><a class="dropdown-item" href="#"><i
-                                                                        class="fa-sharp fa-solid fa-copy"></i>
-                                                                    Copy</a></li>
-                                                            <li><a class="dropdown-item" href="#"><i
-                                                                        class="fa-sharp fa-solid fa-tag"></i>
-                                                                    Pin Chat</a></li>
-                                                            <li><a class="dropdown-item" href="#"><i
-                                                                        class="fa-solid fa-file-lines"></i>
-                                                                    Rename</a></li>
-                                                            <li><a class="dropdown-item delete-item" href="#"><i
-                                                                        class="fa-solid fa-trash-can"></i>
-                                                                    Delete Chat</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="right-side-btn">
-                                                        <button class="react-btn btn-default btn-small btn-border"
-                                                            onclick="regenerateMessage()">
-                                                            <i
-                                                                class="fa-sharp fa-solid fa-repeat"></i><span>Regenerate</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
+                                            <div class="content">
+                                                <ul class="rainbow-meta-list">
+                                                    <li><i class="fa-sharp fa-regular fa-calendar-days icon-left"></i> 10
+                                                        Dec 2023</li>
+                                                    <li class="separator"></li>
+                                                    <li class="catagory-meta"><a href="#">Technology</a></li>
+                                                </ul>
+                                                <h4 class="title"><a href="http://127.0.0.1:8000/blog-details">Best
+                                                        Corporate
+                                                        Tips
+                                                        You Will Read This Year.
+                                                    </a>
+                                                </h4>
+                                                <p class="description">Implement user authentication to provide personalized
+                                                    experiences </p>
+                                                <a class="btn-read-more border-transparent" href="#"><span>Read More
+                                                        <i class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -520,9 +282,12 @@
                                         <i class="fa-regular fa-ellipsis"></i>
                                     </button>
                                     <ul class="dropdown-menu style-one">
-                                        <li><a class="dropdown-item" href="#"><i
-                                                    class="fa-sharp fa-solid fa-arrows-rotate"></i>
-                                                Regenerate</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <i class="fa-sharp fa-solid fa-arrows-rotate"></i>
+                                                Regenerate
+                                            </a>
+                                        </li>
                                         <li><a class="dropdown-item" href="#"><i
                                                     class="fa-sharp fa-solid fa-tag"></i> Pin Chat</a></li>
                                         <li><a class="dropdown-item" href="#"><i

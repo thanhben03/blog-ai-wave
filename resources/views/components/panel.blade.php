@@ -16,55 +16,54 @@
                  <div class="rbt-default-sidebar-wrapper">
                      <nav class="mainmenu-nav">
                          <ul class="dashboard-mainmenu rbt-default-sidebar-list">
-                             <li>
-                                 <a href="{{ route('tools.text.generator') }}"> <img
-                                         src="{{ asset('assets/images/generator-icon/text.png') }}" alt="AI Generator">
-                                     <span>Text Generator</span></a>
-                             </li>
-                             <li>
-                                 <a href="{{ route('tools.image.generator') }}">
-                                     <img src="{{ asset('assets/images/generator-icon/photo.png') }}"
-                                         alt="AI Generator">
-                                     <span>Image Generator</span>
-                                     <div class="rainbow-badge-card badge-sm ml--10">NEW</div>
-                                 </a>
-                             </li>
-                             <li>
-                                 <a href="{{ route('tools.code.generator') }}">
-                                     <img src="{{ asset('assets/images/generator-icon/code-editor.png') }}"
-                                         alt="AI Generator">
-                                     <span>Code Generator</span>
-                                 </a>
-                             </li>
-                             <li>
-                                 <a href="{{ route('tools.image.editor') }}">
-                                     <img src="{{ asset('assets/images/generator-icon/photo.png') }}"
-                                         alt="AI Generator">
-                                     <span>Image Editor</span>
-                                 </a>
-                             </li>
-                             <li>
-                                 <a href="{{ route('tools.video.generator') }}">
-                                     <img src="{{ asset('assets/images/generator-icon/video-camera.png') }}"
-                                         alt="AI Generator">
-                                     <span>Vedio Generator</span>
-                                 </a>
-                             </li>
-                             <li>
-                                 <a href="{{ route('tools.email.generator') }}">
-                                     <img src="{{ asset('assets/images/generator-icon/email.png') }}"
-                                         alt="AI Generator"><span>Email
-                                         Generator</span>
-                                 </a>
-                             </li>
-                             <li>
-                                 <a tabindex="-1" class="disabled" aria-disabled="true"
-                                     href="{{ route('tools.web.generator') }}">
-                                     <img src="{{ asset('assets/images/generator-icon/website-design.png') }}"
-                                         alt="AI Generator"><span>Website Generator</span>
-                                     <div class="rainbow-badge-card badge-sm ml--10">PRO</div>
-                                 </a>
-                             </li>
+                             <x-menu-left-item
+                                 text="Thuật ngữ tài chính"
+                                 path="assets/images/generator-icon/text.png"
+                                 route="tools.text.generator"
+                             />
+
+                             <x-menu-left-item
+                                 text="Công cụ kỹ thuật"
+                                 path="assets/images/generator-icon/photo.png"
+                                 route="tools.image.generator"
+                             />
+
+                             <x-menu-left-item
+                                 text="Quản lý vốn"
+                                 path="assets/images/generator-icon/photo.png"
+                                 route="tools.code.generator"
+                             />
+
+
+                             <x-menu-left-item
+                                 text="Sử dụng MT5"
+                                 path="assets/images/generator-icon/photo.png"
+                                 route="tools.image.editor"
+                             />
+
+
+{{--                             <li>--}}
+{{--                                 <a href="{{ route('tools.video.generator') }}">--}}
+{{--                                     <img src="{{ asset('assets/images/generator-icon/video-camera.png') }}"--}}
+{{--                                         alt="AI Generator">--}}
+{{--                                     <span>Vedio Generator</span>--}}
+{{--                                 </a>--}}
+{{--                             </li>--}}
+{{--                             <li>--}}
+{{--                                 <a href="{{ route('tools.email.generator') }}">--}}
+{{--                                     <img src="{{ asset('assets/images/generator-icon/email.png') }}"--}}
+{{--                                         alt="AI Generator"><span>Email--}}
+{{--                                         Generator</span>--}}
+{{--                                 </a>--}}
+{{--                             </li>--}}
+{{--                             <li>--}}
+{{--                                 <a tabindex="-1" class="disabled" aria-disabled="true"--}}
+{{--                                     href="{{ route('tools.web.generator') }}">--}}
+{{--                                     <img src="{{ asset('assets/images/generator-icon/website-design.png') }}"--}}
+{{--                                         alt="AI Generator"><span>Website Generator</span>--}}
+{{--                                     <div class="rainbow-badge-card badge-sm ml--10">PRO</div>--}}
+{{--                                 </a>--}}
+{{--                             </li>--}}
                          </ul>
                      </nav>
 

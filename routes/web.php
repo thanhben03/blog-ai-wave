@@ -3,6 +3,7 @@
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\toolsController;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
 
@@ -52,4 +53,38 @@ Route::controller(PagesController::class)->name('pages.')->group(function () {
     // Pages End
     Route::get('roadmap', 'roadmap')->name('roadmap');
     Route::get('how-to-use', 'howToUse')->name('how.to.use');
+});
+
+
+Route::get('/get-route', function () {
+    $routeCollection = Route::getRoutes();
+
+    echo "<table style='width:100%'>";
+    echo "<tr>";
+    echo "<td width='10%'><h4>HTTP Method</h4></td>";
+    echo "<td width='10%'><h4>Route</h4></td>";
+    echo "<td width='10%'><h4>Name</h4></td>";
+    echo "<td width='70%'><h4>Corresponding Action</h4></td>";
+    echo "</tr>";
+    $sql = [];
+    foreach ($routeCollection as $value) {
+
+        $sql[] = [
+            'http_method' => $value->methods()[0],
+            'path' => $value->uri(),
+            'route_name' => $value->getName(),
+        ];
+
+        echo "<tr>";
+        echo "<td>" . $value->methods()[0] . "</td>";
+        echo "<td>" . $value->uri() . "</td>";
+        echo "<td>" . $value->getName() . "</td>";
+        echo "<td>" . $value->getActionName() . "</td>";
+        echo "</tr>";
+    }
+    echo "</table>";
+    DB::table('routes')->truncate();
+
+    DB::table('routes')->insert($sql);
+
 });
